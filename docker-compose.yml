@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  gateway-service:
+    container_name: gateway-service
+    image: motihc/gateway-service
+    ports:
+      - "8080:8080"
